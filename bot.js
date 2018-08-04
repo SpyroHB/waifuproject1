@@ -1,14 +1,9 @@
-const { Discord, RichEmbed } = require('discord.js');
+const { Client, RichEmbed } = require('discord.js');
 const fs = require("fs");
 const moment = require("moment");
 const devs = ['431150885549113344','244423000802328576','343383616895713290','171259176029257728'];
 const errmsg = "<:eRrOr:475075170231517184> **Oops, something unexpected happened!** The error was sent to our team and we'll do our best to fix it."
-const client = new Discord.Client({
-    disableEveryone: true,
-    messageCacheMaxSize: 500,
-    messageCacheLifetime: 120,
-    messageSweepInterval: 60
-  });
+const client = new Client({disableEveryone: true});
 const prefix = '.'
 client.login(process.env.SECERT_TOKEN);
 
