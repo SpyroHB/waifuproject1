@@ -289,7 +289,7 @@ message.channel.send(`**Rebooting....**`).then(client.destroy())
 }else if(message.content.startsWith(`${prefix}ping`)) {
     message.channel.sendMessage("**Pinging...**").then((message)=> {
 
-        message.edit(`**Time Taken :ping_pong: ** \`${Date.now() - message.createdTimestamp} ms\`` + `\n **Discord API <:disc:475249489607917580> ** \`${client.pings[1]} ms\``);
+        message.edit(`** :ping_pong: Time Taken** \`${Date.now() - message.createdTimestamp} ms\`` + `\n ** <:disc:475249489607917580> Discord API** \`${client.pings[1]} ms\``);
         
   })
 }
