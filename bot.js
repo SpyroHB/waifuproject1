@@ -296,7 +296,6 @@ message.channel.send(`**Rebooting....**`).then(client.destroy())
 });
 
 
-
 // //Server icon
 // client.on("message", message => {
 //     const prefix = "."
