@@ -1,1 +1,9 @@
-# waifuproject1
+# waifu project
+To do list:
+-
+-
+-
+-
+-
+-
+-
